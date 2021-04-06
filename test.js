@@ -32,8 +32,24 @@
 //      console.log(i);
 //  }
 
-let a = ['하나','둘','셋', ]
+// let a = ['하나','둘','셋', ]
 
-for(let i=0;i<4;i++){
-    console.log(i);
+// for(let i=0;i<4;i++){
+//     console.log(i);
+// }
+
+let array = ['아','나는','커서','사자가','될래요'];
+
+for(let i=0;i<array.length;i++){
+    console.log(array[i]);
 }
+console.log(array.length);
+
+let likelion = {
+    name : '멋쟁이 사자처럼',
+    year : '9기',
+    campus:'인천대학교',
+    Total:15,
+}
+console.log(likelion["campus"]);
+console.log(likelion.campus);
